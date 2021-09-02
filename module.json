@@ -1,0 +1,37 @@
+{
+  "name": "zandora-party-frame",
+  "title": "Zandora Party Frame",
+  "description": "Displays a party frame with resource bars for tokens with Friendly disposition . This project has been adapted from Forien#2130 workshop-unit-party-frames module which is no longer under development.",
+  "author": "Bospone – Bospone#9563",
+  "authors": [
+    {
+      "name": "Forien – Forien#2130",
+      "url": "https://www.patreon.com/foundryworkshop"
+    }
+  ],
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.8",
+  "url": "https://github.com/Foundry-Workshop/party-unit-frames",
+  "manifest": "https://raw.githubusercontent.com/Foundry-Workshop/party-unit-frames/master/src/module.json",
+  "download": "https://github.com/Foundry-Workshop/party-unit-frames/releases/download/v0.1.3/v0.1.3.zip",
+  "readme": "https://github.com/Foundry-Workshop/party-unit-frames/blob/v0.1.3/README.md",
+  "changelog": "https://github.com/Foundry-Workshop/party-unit-frames/blob/v0.1.3/changelog.md",
+  "bugs": "https://github.com/Foundry-Workshop/party-unit-frames/issues",
+  "esmodules": [
+    "./modules/init.js"
+  ],
+  "styles": [
+    "./styles/style.css"
+  ],
+  "scripts": [
+    "./scripts/prompt.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
