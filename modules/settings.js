@@ -10,16 +10,16 @@ export default function registerSettings() {
   });
 
    game.settings.register(constants.moduleName, "skin", {
-    name: "WorkshopPUF.Settings.skin.name",
-    hint: "WorkshopPUF.Settings.skin.hint",
+    name: "ZandoraPUF.Settings.skin.name",
+    hint: "ZandoraPUF.Settings.skin.hint",
     scope: "client",
     config: true,
     default: 'default',
     type: String,
     choices: {
-      "default": "WorkshopPUF.Settings.skin.default",
-      "pill": "WorkshopPUF.Settings.skin.pill",
-      "thin": "WorkshopPUF.Settings.skin.thin"
+      "default": "ZandoraPUF.Settings.skin.default",
+      "pill": "ZandoraPUF.Settings.skin.pill",
+      "thin": "ZandoraPUF.Settings.skin.thin"
     },
     onChange: value => {
       if (ui.unitFrames?.rendered) {
@@ -29,17 +29,17 @@ export default function registerSettings() {
   });
 
   game.settings.register(constants.moduleName, "filter", {
-    name: "WorkshopPUF.Settings.filter.name",
-    hint: "WorkshopPUF.Settings.filter.hint",
+    name: "ZandoraPUF.Settings.filter.name",
+    hint: "ZandoraPUF.Settings.filter.hint",
     scope: "client",
     config: true,
     default: 'none',
     type: String,
     choices: {
-      "none": "WorkshopPUF.Settings.filter.none",
-      "damped": "WorkshopPUF.Settings.filter.damped",
-      "grayscale": "WorkshopPUF.Settings.filter.grayscale",
-      "sepia": "WorkshopPUF.Settings.filter.sepia"
+      "none": "ZandoraPUF.Settings.filter.none",
+      "damped": "ZandoraPUF.Settings.filter.damped",
+      "grayscale": "ZandoraPUF.Settings.filter.grayscale",
+      "sepia": "ZandoraPUF.Settings.filter.sepia"
     },
     onChange: value => {
       if (ui.unitFrames?.rendered) {
@@ -49,8 +49,8 @@ export default function registerSettings() {
   });
 
   game.settings.register(constants.moduleName, "showResourceValues", {
-    name: "WorkshopPUF.Settings.showResourceValues.name",
-    hint: "WorkshopPUF.Settings.showResourceValues.hint",
+    name: "ZandoraPUF.Settings.showResourceValues.name",
+    hint: "ZandoraPUF.Settings.showResourceValues.hint",
     scope: "world",
     config: true,
     default: false,
@@ -59,8 +59,8 @@ export default function registerSettings() {
   });
 
   game.settings.register(constants.moduleName, "resetUnitFrames", {
-    name: "WorkshopPUF.Settings.resetUnitFrames.name",
-    hint: "WorkshopPUF.Settings.resetUnitFrames.hint",
+    name: "ZandoraPUF.Settings.resetUnitFrames.name",
+    hint: "ZandoraPUF.Settings.resetUnitFrames.hint",
     scope: "client",
     config: true,
     default: false,

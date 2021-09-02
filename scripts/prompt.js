@@ -1,11 +1,11 @@
 (() => {
-  const module = "Workshop's Party Unit Frames";
-  const author = "Forien";
+  const module = "Zandora Party Frame";
+  const author = "Bospone";
   const message = "<p>Thank you for downloading our modules! We are implementing a new, unified Welcome Screen to contain information for any/all of our Foundry Workshop modules.</p><p>We strongly recommend you install it so that you are updated and notified about new versions. The new Welcome Screen is highly customizable and offers several different display options.</p>";
   const messageEnable = "You have installed Foundry Workshop Welcome Screen. Do you want to enable it now?";
   const disclaimer = "Clicking 'Install' will download the 'Foundry Workshop Welcome Screen' module and install it into your Foundry instance. It will also send you back to the setup screen where you will need to re-launch your world.";
   const ending = "Sincerely,";
-  const manifest = 'https://raw.githubusercontent.com/Foundry-Workshop/welcome-screen/master/module.json';
+  const manifest = 'https://raw.githubusercontent.comm/darkwon/zandora-party-frame/master/src/module.json';
   const wsID = 'workshop-welcome-screen';
 
   let testSetup = async () => {
