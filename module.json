@@ -13,10 +13,10 @@
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
   "url": "https://github.com/darkwon/zandora-party-frame",
-  "manifest": "https://raw.githubusercontent.comm/darkwon/zandora-party-frame/master/src/module.json",
-  "download": "https://github.com/darkwon/zandora-party-frame/releases/download/v.0.0.1/v.0.0.1.zip",
+  "manifest": "https://raw.githubusercontent.com/darkwon/zandora-party-frame/main/module.json",
+  "download": "https://github.com/darkwon/zandora-party-frame/releases/download/v1.0.0/v1.0.0.zip",
   "readme": "https://github.com/darkwon/zandora-party-frame/blob/main/README.md",
-  "changelog": "https://github.com/darkwon/zandora-party-frame/blob/v0.1.3/changelog.md",
+  "changelog": "https://github.com/darkwon/zandora-party-frame/blob/main/changelog.md",
   "bugs": "https://github.com/darkwon/zandora-party-frame/issues",
   "esmodules": [
     "./modules/init.js"
