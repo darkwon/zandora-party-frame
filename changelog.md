@@ -1,4 +1,4 @@
 # Changelog
 
-## v0.0.1
-* Initial release
+## v.1.0.0
+* Initial release for FoundryVTT v.0.8.8
