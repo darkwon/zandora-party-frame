@@ -1,7 +1,6 @@
 import constants from "./constants.js";
 import registerSettings from "./settings.js";
 import UnitFramesBox from "./apps/UnitFramesBox.js";
-import QuestTracker from "./apps/QuestTracker.js";
 
 Hooks.once('init', () => {
   registerSettings();
@@ -16,9 +15,6 @@ Hooks.once('setup', () => {
 
 Hooks.once("ready", () => {
   UnitFramesBox.init();
-  if (game.settings.get(constants.moduleName, 'enableQuestTracker'))
-    if (game.modules.get("forien-quest-log")?.active)
-      QuestTracker.init();
 
   Hooks.callAll(`${constants.moduleName}:afterReady`);
 });
@@ -53,11 +49,4 @@ Hooks.on("updateActor", (actor, data, options, userId) => {
   for (let token of actor.getActiveTokens(true)) {
     ui.unitFrames.updateFrame(token);
   }
-});
-
-/**
- * Need to Update Quest Log with custom Hooks :c
- */
-Hooks.on("updateJournalEntry", () => {
-  if (ui.questTracker) ui.questTracker.render();
 });
