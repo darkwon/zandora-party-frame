@@ -1,5 +1,5 @@
 {
-  "WorkshopPUF": {
+  "ZandoraPUF": {
     "Settings": {
       "skin": {
         "name": "Unit Frames Skin",
@@ -20,21 +20,9 @@
         "name": "Show Resource Values",
         "hint": "Check this to display resource values on Unit Frame bars for all players."
       },
-      "enableQuestTracker": {
-        "name": "Enable Quest Tracker",
-        "hint": "Check this to enable Quest Tracker HUD window. Requires Forien's Quest Log module installed."
-      },
-      "questTrackerBackground": {
-        "name": "Quest Tracker Background",
-        "hint": "Check this to enable background for Quest Tracker, which might help with visibility on certain maps."
-      },
       "resetUnitFrames": {
         "name": "Reset Unit Frames Position",
         "hint": "Check this to reset position of Unit Frames to default. Use this if you moved Unit Frames into position where you cannot move it anymore."
-      },
-      "resetQuestTracker": {
-        "name": "Reset Quest Tracker Position",
-        "hint": "Check this to reset position of Quest Tracker to default. Use this if you moved Quest Tracker into position where you cannot move it anymore."
       }
     }
   }
