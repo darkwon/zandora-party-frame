@@ -1,5 +1,5 @@
 <h1>FoundryVTT - Zandora Party Frame</h1>
-<b>[Compatibility]</b>: FoundryVTT 0.8.8</br>
+<b>[Compatibility]</b>: FoundryVTT 0.8.8 to 9.231</br>
 <b>[Systems]</b>: Any</br>
 <b>[Languages]</b>: English</br>
 Displays a party frame with resource bars for tokens with Friendly disposition . This project has been adapted from <a href="https://github.com/Foundry-Workshop/party-unit-frames#foundryvtt---workshops-party-unit-frames">Forien#2130 workshop-unit-party-frames</a> module which is no longer under development.
