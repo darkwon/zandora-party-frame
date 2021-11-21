@@ -24,9 +24,7 @@
   "styles": [
     "./styles/style.css"
   ],
-  "scripts": [
-    "./scripts/prompt.js"
-  ],
+  "scripts": [],
   "languages": [
     {
       "lang": "en",

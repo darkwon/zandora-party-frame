@@ -33,11 +33,10 @@ export default class UnitFramesBox extends RepositionableApplication {
       let color = this.getTokenColor(t);
       frames.push({
         id: id,
-        color: color,
         name: t.name,
-        primary: this.getPrimary(t),
-        secondary: this.getSecondary(t),
-        disposition: this.isFriendly(t)
+        primary: this.getPrimary(t.document),
+        secondary: this.getSecondary(t.document),
+        disposition: this.isFriendly(t.document)
       })
     }
 
@@ -68,23 +67,6 @@ export default class UnitFramesBox extends RepositionableApplication {
       value: barData.value,
       max: barData.max,
     }
-  }
-
-  getTokenColor(token) {
-    if (token.actor) {
-      const user = game.users.entities.filter(u => u.character).find(u => token.actor.id === u.character.id);
-      if (user) return user.data.color;
-    }
-
-    return this.randomizeColor(token);
-  }
-
-  randomizeColor(token) {
-    if (this.tokenColors[token.id] === undefined) {
-      this.tokenColors[token.id] = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6)
-    }
-
-    return this.tokenColors[token.id]
   }
 
   getTokens() {
