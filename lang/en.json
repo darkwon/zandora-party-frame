@@ -5,7 +5,7 @@
         "name": "Unit Frames Skin",
         "hint": "Select one of available skins for Unit Frames. Client-side setting only.",
         "default": "Default",
-        "pill": "Pill",
+        "icon": "Icon",
         "thin": "Thin"
       },
       "filter": {

@@ -18,32 +18,12 @@ export default function registerSettings() {
     type: String,
     choices: {
       "default": "ZandoraPUF.Settings.skin.default",
-      "pill": "ZandoraPUF.Settings.skin.pill",
+      "icon": "ZandoraPUF.Settings.skin.icon",
       "thin": "ZandoraPUF.Settings.skin.thin"
     },
     onChange: value => {
       if (ui.unitFrames?.rendered) {
-        ui.unitFrames.element.removeClass('default pill thin').addClass(value);
-      }
-    }
-  });
-
-  game.settings.register(constants.moduleName, "filter", {
-    name: "ZandoraPUF.Settings.filter.name",
-    hint: "ZandoraPUF.Settings.filter.hint",
-    scope: "client",
-    config: true,
-    default: 'none',
-    type: String,
-    choices: {
-      "none": "ZandoraPUF.Settings.filter.none",
-      "damped": "ZandoraPUF.Settings.filter.damped",
-      "grayscale": "ZandoraPUF.Settings.filter.grayscale",
-      "sepia": "ZandoraPUF.Settings.filter.sepia"
-    },
-    onChange: value => {
-      if (ui.unitFrames?.rendered) {
-        ui.unitFrames.element.removeClass('none damped grayscale sepia').addClass(value);
+        ui.unitFrames.element.removeClass('default icon thin').addClass(value);
       }
     }
   });

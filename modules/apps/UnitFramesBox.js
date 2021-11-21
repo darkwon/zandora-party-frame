@@ -21,7 +21,6 @@ export default class UnitFramesBox extends RepositionableApplication {
     options.tokens = this.getTokens();
     options.frames = this.prepareTokens(options.tokens);
     options.skin = game.settings.get(constants.moduleName, 'skin');
-    options.filter = game.settings.get(constants.moduleName, 'filter');
     options.displayValues = game.settings.get(constants.moduleName, 'showResourceValues');
 
     return options;
