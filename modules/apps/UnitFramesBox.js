@@ -30,7 +30,6 @@ export default class UnitFramesBox extends RepositionableApplication {
   prepareTokens(tokens) {
     let frames = [];
     for (let [id, t] of tokens) {
-      let color = this.getTokenColor(t);
       frames.push({
         id: id,
         name: t.name,
