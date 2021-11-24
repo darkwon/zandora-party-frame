@@ -9,7 +9,7 @@
       "url": "https://www.patreon.com/ZandoraLegends"
     }
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "9.231",
   "url": "https://github.com/darkwon/zandora-party-frame",
@@ -32,7 +32,7 @@
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/darkwon/zandora-party-frame/main/module.json",
-  "download": "https://github.com/darkwon/zandora-party-frame/releases/download/v1.0.1/v1.0.1.zip",
+  "download": "https://github.com/darkwon/zandora-party-frame/releases/download/v1.0.2/v1.0.2.zip",
   "protected": false,
   "coreTranslation": false,
   "library": false

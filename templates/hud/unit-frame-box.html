@@ -2,14 +2,12 @@
     <div class="move-handle"><i class="fas fa-arrows-alt"></i></div>
     {{#each frames}}
     <div class="unit-frame" id="unit-frame-{{this.id}}" data-id="{{this.id}}">
+        <div class="charframe"></div>
+        <div class="charlevel">{{this.level}}</div>
         <div>
-            <img class="charframe" src="modules/zandora-party-frame/icons/charframe.webp">
+            <img class="charimage" src="{{this.img}}">
         </div>
-        <div>
-            <img class="charimage" src="https://via.placeholder.com/40">
-        </div>
-        <div class="charname">{{this.name}}
-        </div>
+        <div class="charnameframe"><span class="charname">{{this.name}}</span></div>
         <div class="primary" style="background: {{this.color}}">
             <div class="bar" style="background: {{this.color}}; width: {{this.primary.percent}}%"></div>
             <div class="primaryValue" {{#unless ../displayValues}}style="display:none"{{/unless}}>{{this.primary.value}}/{{this.primary.max}}</div>

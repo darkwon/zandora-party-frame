@@ -19,7 +19,7 @@ export default function registerSettings() {
     choices: {
       "default": "ZandoraPUF.Settings.skin.default",
       "icon": "ZandoraPUF.Settings.skin.icon",
-      "thin": "ZandoraPUF.Settings.skin.thin"
+      "warcraft": "ZandoraPUF.Settings.skin.warcraft"
     },
     onChange: value => {
       if (ui.unitFrames?.rendered) {
