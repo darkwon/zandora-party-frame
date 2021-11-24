@@ -1,6 +1,22 @@
-<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/33d51a8a7dd8994ef5db16875e107c3ab3f51d4bec3074c2c79ad78ee3543254/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f466f756e6472792d576f726b73686f702f70617274792d756e69742d6672616d65733f7374796c653d666f722d7468652d6261646765"><img src="https://camo.githubusercontent.com/33d51a8a7dd8994ef5db16875e107c3ab3f51d4bec3074c2c79ad78ee3543254/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f466f756e6472792d576f726b73686f702f70617274792d756e69742d6672616d65733f7374796c653d666f722d7468652d6261646765" alt="GitHub release (latest SemVer)" data-canonical-src="https://img.shields.io/github/v/release/Foundry-Workshop/party-unit-frames?style=for-the-badge" style="max-width: 100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/dc4532ee889d4b881851bc247c0a4fe81b3da0bfd5ba58f786a5fd04c43ced1a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f466f756e6472792d576f726b73686f702f70617274792d756e69742d6672616d65732f6c61746573742f746f74616c3f7374796c653d666f722d7468652d6261646765"><img src="https://camo.githubusercontent.com/dc4532ee889d4b881851bc247c0a4fe81b3da0bfd5ba58f786a5fd04c43ced1a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f466f756e6472792d576f726b73686f702f70617274792d756e69742d6672616d65732f6c61746573742f746f74616c3f7374796c653d666f722d7468652d6261646765" alt="GitHub Releases" data-canonical-src="https://img.shields.io/github/downloads/Foundry-Workshop/party-unit-frames/latest/total?style=for-the-badge" style="max-width: 100%;"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/5fac46961fcd7fb0a476d46a44d0e14731c05cd8681a59f3af081ebb1a061568/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f466f756e6472792d576f726b73686f702f70617274792d756e69742d6672616d65732f746f74616c3f7374796c653d666f722d7468652d6261646765266c6162656c3d446f776e6c6f6164732b746f74616c"><img src="https://camo.githubusercontent.com/5fac46961fcd7fb0a476d46a44d0e14731c05cd8681a59f3af081ebb1a061568/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f466f756e6472792d576f726b73686f702f70617274792d756e69742d6672616d65732f746f74616c3f7374796c653d666f722d7468652d6261646765266c6162656c3d446f776e6c6f6164732b746f74616c" alt="GitHub All Releases" data-canonical-src="https://img.shields.io/github/downloads/Foundry-Workshop/party-unit-frames/total?style=for-the-badge&amp;label=Downloads+total" style="max-width: 100%;"></a>
+<svg xmlns="http://www.w3.org/2000/svg" width="102.3" height="20" viewBox="0 0 1023 200" role="img" aria-label="release: v7.16.4">
+  <title>release: v1.0.2</title>
+  <linearGradient id="a" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="m"><rect width="1023" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#m)">
+    <rect width="498" height="200" fill="#555"/>
+    <rect width="525" height="200" fill="#08C" x="498"/>
+    <rect width="1023" height="200" fill="url(#a)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="398" fill="#000" opacity="0.25">release</text>
+    <text x="50" y="138" textLength="398">release</text>
+    <text x="553" y="148" textLength="425" fill="#000" opacity="0.25">v7.16.4</text>
+    <text x="543" y="138" textLength="425">v7.16.4</text>
+  </g>
+</svg>
 <br />
 <h1>FoundryVTT - Zandora Party Frame</h1>
 <b>[Compatibility]</b>: FoundryVTT 0.8.8 to 9.231</br>
