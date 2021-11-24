@@ -32,6 +32,8 @@ export default class UnitFramesBox extends RepositionableApplication {
       frames.push({
         id: id,
         name: t.name,
+        img: t.actor.img,
+        level: t.actor.data.data.details.level,
         primary: this.getPrimary(t.document),
         secondary: this.getSecondary(t.document),
         disposition: this.isFriendly(t.document)
