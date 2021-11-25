@@ -242,7 +242,7 @@
   top:-90px;
   left:45px;
   color: white;
-  text-align: center;
+  text-align: left;
   z-index: 97;
 }
 
@@ -260,8 +260,8 @@
 #unit-frame-box.warcraft .unit-frame .charname{
   position:relative;
   width:155px;
+  left:30px;
   color: #e3c36d;
-  text-align: center;
   text-transform: capitalize;
   font-size: 18px;
   z-index: 100;
