@@ -331,6 +331,7 @@
   border-width: 0px;
   border-radius: 50%;
   top: -10px;
+  height: 70px;
   width: 70px;
   z-index:98;
   background-color: rgb(0,0,0,0.5);
