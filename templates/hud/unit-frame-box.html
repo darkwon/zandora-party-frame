@@ -7,7 +7,7 @@
         <div>
             <img class="charimage" src="{{this.img}}">
         </div>
-        <div class="charnameframe"><span class="charname">{{this.name}}</span></div>
+        <div class="charnameframe truncate"><span class="charname">{{this.name}}</span></div>
         <div class="primary" style="background: {{this.color}}">
             <div class="bar" style="background: {{this.color}}; width: {{this.primary.percent}}%"></div>
             <div class="primaryValue" {{#unless ../displayValues}}style="display:none"{{/unless}}>{{this.primary.value}}/{{this.primary.max}}</div>

@@ -22,6 +22,11 @@
   left: 4px;
   color: #ffffff88; }
 
+  .truncate{
+    text-overflow: ellipsis; 
+    overflow:hidden;           
+    white-space:nowrap;
+  }
 /* ---------------- DEFAULT SKIN ---------------- */
 #unit-frame-box.default .unit-frame {
   flex: 0 1 40px;
@@ -209,6 +214,7 @@
   border-width: 0px;
   border-radius: 50%;
   width: 50px;
+  height: 50px;
   z-index:98;
   background-color: rgb(0,0,0,0.5);
 }
